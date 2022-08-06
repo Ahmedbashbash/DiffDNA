@@ -577,33 +577,7 @@ max-width: 50px; */
     margin: 0 auto 100px;
     height: 300px;
     }
-@media only screen and (max-width: 720px){
-  .cont {
-      border-radius: 20px;
-      overflow: hidden;
-      position: relative;
-      width: auto;
-      margin: 0 auto 100px;
-      height: 500px;
-      }
-      .cont.s--signup .sign-up {
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, -440px, 0)!important;
-      }
-}
-@media only screen and (max-width: 1000px){
-  .cont {
-      border-radius: 20px;
-      overflow: hidden;
-      position: relative;
-      width: auto;
-      margin: 0 auto 100px;
-      }
-      .cont.s--signup .sign-up {
-          -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, -200px, 0)!important;
-      }
-}
+
 
 .cont .form {
     -webkit-transition: -webkit-transform 1.2s ease-in-out;
@@ -749,6 +723,47 @@ max-width: 50px; */
 .cont.s--signup .sign-up {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, -160px, 0);
+}
+@media only screen and (min-width: 320px){
+  .cont {
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      width: auto;
+      margin: 0 auto 100px;
+      height: 400px;
+      }
+      .cont.s--signup .sign-up {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, -340px, 0);
+      }
+}
+@media only screen and (min-width: 480px){
+  .cont {
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      width: auto;
+      margin: 0 auto 100px;
+      height: 400px;
+      }
+      .cont.s--signup .sign-up {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, -300px, 0);
+      }
+}
+@media only screen and (min-width: 720px){
+  .cont {
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      width: auto;
+      margin: 0 auto 100px;
+      }
+      .cont.s--signup .sign-up {
+          -webkit-transform: translate3d(0, 0, 0);
+          transform: translate3d(0, -200px, 0);
+      }
 }
 
 
