@@ -82,20 +82,32 @@
                           <div class="title">
                           </div>
                       </div>
-                      <div class="aboutUsSen" dir="rtl">
-                        <p dir="rtl" class="basmala" lang="ar" style="color:#e0e0e0;font-size:16px;"> السلام عليكم ورحمة الله وبركاته </p>
-                        <p dir="rtl" lang="ar" style="color:#DC143C;font-size:20px;">  Different Dna Server </p>
-                        <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;"> هو سيرفر تم تأسيسيه في عام 2018 من قبل اللاعب عبد الرحمن وهو لاعب رياضة الكترونية
-                          حيث كان السيرفر يقتصر على اللاعبين والأصدقاء </p>
-                        <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;">   وفي عام 2021 قام عبد الرحمن و أصدقائه بتطوير السيرفر
-                          حيث أصبح السيرفر يستقبل اللاعبين من جميع الدول وأيضا صناع المحتوى ومن ثم تم إضافة مدربين محترفين في العديد من الألعاب المشهورة ليقوموا بمساعدة اللاعبين الجدد في هذا المجال
-                          حيث أن هناك الكثير من اللاعبين المتواجدين في السيرفر حاصلين على جوائز قيمة من بطولات عالمية وعربية في العديد من الألعاب التنافسية
-                          ويوجد في السيرفر جميع أنواع اللاعبين ،لاعبين محترفين ،لاعبين لغرض الترفيه ،لاعبين لغرض تطوير المهارة
-                          وإذا كنت لاعباً محترفاً بالفعل فالسيرفر سيعمل على شهرتك ووصولك للغاية التي تريدها ،مما يؤدي الى العودة بالمنفعة على جميع الأطراف</p>
-                        <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;">  </p>
-                      </div>
-                      <div class="aboutUsSenEng">
-                        <p>Its</p>
+                      <div class="cont">
+
+                        <div class="img__btn">
+                          <span class="m--up">En</span>
+                          <span class="m--in">Ar</span>
+                        </div>
+                        <div class="aboutUsSen form sign-in" dir="rtl">
+                          <p dir="rtl" class="basmala" lang="ar" style="color:#e0e0e0;font-size:16px;"> السلام عليكم ورحمة الله وبركاته </p>
+                          <p dir="rtl" lang="ar" style="color:#DC143C;font-size:20px;">  Different Dna Server </p>
+                          <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;"> هو سيرفر تم تأسيسيه في عام 2018 من قبل اللاعب عبد الرحمن وهو لاعب رياضة الكترونية
+                            حيث كان السيرفر يقتصر على اللاعبين والأصدقاء </p>
+                          <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;">   وفي عام 2021 قام عبد الرحمن و أصدقائه بتطوير السيرفر
+                            حيث أصبح السيرفر يستقبل اللاعبين من جميع الدول وأيضا صناع المحتوى ومن ثم تم إضافة مدربين محترفين في العديد من الألعاب المشهورة ليقوموا بمساعدة اللاعبين الجدد في هذا المجال
+                            حيث أن هناك الكثير من اللاعبين المتواجدين في السيرفر حاصلين على جوائز قيمة من بطولات عالمية وعربية في العديد من الألعاب التنافسية
+                            ويوجد في السيرفر جميع أنواع اللاعبين ،لاعبين محترفين ،لاعبين لغرض الترفيه ،لاعبين لغرض تطوير المهارة
+                            وإذا كنت لاعباً محترفاً بالفعل فالسيرفر سيعمل على شهرتك ووصولك للغاية التي تريدها ،مما يؤدي الى العودة بالمنفعة على جميع الأطراف</p>
+                          <p dir="rtl" lang="ar" style="color:#e0e0e0;font-size:14px;">  </p>
+                        </div>
+                        <div class="aboutUsSenEng form sign-up sub-cont">
+                          <p style="color:#DC143C;font-size:20px;">  Different Dna Server </p>
+                          <p style="color:#e0e0e0;font-size:14px;">its a server that has been created in 2018 by the player Abdulrahman, and the server started for only few players and some friends.</p>
+                          <p style="color:#e0e0e0;font-size:14px;">with time and specifically in 2021 Abdulrahman and his friends took the server for the next level, and the server became for everyone from all countries,
+                            and now the server has content creators, coaches for a lot of famous games to help the new players, and players who has an international and arabic achievements.</p>
+                          <p style="color:#e0e0e0;font-size:14px;">and in our server we have all kind of players, pros and newbies, and players who wanna develop their skills.
+                            our server aim to help you get your goals, no matter if its fam, or learning new skills or becoming pro in the games you like.</p>
+                        </div>
                       </div>
 
                   </div>
@@ -107,9 +119,14 @@
             </div>
 
         </div>
+
     </section>
 
-
+    <script>
+            document.querySelector('.img__btn').addEventListener('click', function() {
+                document.querySelector('.cont').classList.toggle('s--signup');
+            });
+        </script>
     <!-- <section class="work" id="work">
         <div class="container">
 
@@ -184,6 +201,20 @@
 
       </div>
 
+      <!-- Footer Start -->
+
+    <footer class="footer section text-center">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<p class="copyright-text">Copyright ©2022, Designed &amp; Developed by <a href="https://ahmedbashbash.github.io/" target="_blank">Ahmed Bashbash</a></p>
+        <br>
+			</div>
+
+		</div>
+	</div>
+</footer>
+    <!-- Footer End -->
 
     </section> -->
 
