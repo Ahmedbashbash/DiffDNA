@@ -577,8 +577,6 @@ max-width: 50px; */
     margin: 0 auto 100px;
     height: 300px;
     }
-
-
 .cont .form {
     -webkit-transition: -webkit-transform 1.2s ease-in-out;
     transition: -webkit-transform 1.2s ease-in-out;
@@ -711,13 +709,13 @@ max-width: 50px; */
     transition-timing-function: ease-in-out;
     -webkit-transition-duration: 1.2s;
     transition-duration: 1.2s;
-    -webkit-transform: translate3d(640px, 0, 0);
-    transform: translate3d(900px, 0, 0);
+    -webkit-transform: translate3d(1400px, 0, 0);
+    transform: translate3d(1400px, 0, 0);
 }
 
 .cont .sign-up {
-    -webkit-transform: translate3d(-900px, 0, 0);
-    transform: translate3d(-900px, 0, 0);
+    -webkit-transform: translate3d(-1400px, 0, 0);
+    transform: translate3d(-1400px, 0, 0);
 }
 
 .cont.s--signup .sign-up {
@@ -731,14 +729,14 @@ max-width: 50px; */
       position: relative;
       width: auto;
       margin: 0 auto 100px;
-      height: 400px;
+      height: 500px;
       }
       .cont.s--signup .sign-up {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, -340px, 0);
       }
 }
-@media only screen and (min-width: 480px){
+@media only screen and (min-width: 481px){
   .cont {
       border-radius: 20px;
       overflow: hidden;
@@ -749,24 +747,37 @@ max-width: 50px; */
       }
       .cont.s--signup .sign-up {
           -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, -300px, 0);
+          transform: translate3d(0, -280px, 0);
       }
 }
-@media only screen and (min-width: 720px){
+@media only screen and (min-width: 769px) and (max-width: 1024px){
   .cont {
       border-radius: 20px;
       overflow: hidden;
       position: relative;
       width: auto;
       margin: 0 auto 100px;
+      height: 300px;
       }
       .cont.s--signup .sign-up {
           -webkit-transform: translate3d(0, 0, 0);
           transform: translate3d(0, -200px, 0);
       }
 }
-
-
+@media only screen and (min-width: 1025px){
+  .cont {
+      border-radius: 20px;
+      overflow: hidden;
+      position: relative;
+      width: auto;
+      margin: 0 auto 100px;
+      height: 250px;
+      }
+  .cont.s--signup .sign-up {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, -160px, 0);
+  }
+}
 
 
 
